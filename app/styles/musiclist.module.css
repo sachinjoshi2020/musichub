@@ -1,0 +1,24 @@
+.card {
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+  padding: 40px;
+  margin: 20px;
+  border-radius: 5px;
+  border-radius: 10px;
+  color: #fff;
+  width: 30%;
+  height: 190px;
+  place-items: center;
+  display: grid;
+}
+.card:nth-child(even){
+    background:linear-gradient(#cc2b5e , #753a88) ;
+}
+.card:nth-child(odd){
+  background: linear-gradient(#bdc3c7 , #2c3e50);
+}
+
+@media (max-width:768px) {
+    .card{
+        width: 90%;
+    }
+}

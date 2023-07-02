@@ -1,0 +1,7 @@
+.model{
+    position: absolute;
+    background-color: red;
+    top: 0;
+    padding: 40px;
+    z-index: 99;
+}
